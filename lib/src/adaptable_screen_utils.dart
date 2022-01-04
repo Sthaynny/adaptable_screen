@@ -1,6 +1,9 @@
 part of adaptable_screen;
 
 class AdaptableScreenUtils {
+  static double? _heightUIDisign;
+  static double? _widthUIDisign;
+
   static final AdaptableScreenUtils _instance =
       AdaptableScreenUtils._internal();
 
@@ -10,8 +13,16 @@ class AdaptableScreenUtils {
 
   AdaptableScreenUtils._internal();
 
+  static void init({double? heightUIDisign, double? widthUIDisign}) {
+    assert(heightUIDisign != 0);
+    assert(widthUIDisign != 0);
+    _heightUIDisign = heightUIDisign;
+    _widthUIDisign = widthUIDisign;
+  }
+
   /// Size of the phone in UI Design , px
-  final Size _defaultSize = const Size(375, 812);
+
+  Size get _defaultSize => Size(_widthUIDisign ?? 375, _heightUIDisign ?? 812);
 
   /// Representing the main window for applications where there is only one
   /// window, such as applications designed for single-display mobile windows or
