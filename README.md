@@ -54,12 +54,6 @@ with Flutter:
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
 To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init()` function to set the sizes. Essa função deve ser utilizada ao iniciar a construção do seu aplicativo.
 
 ```dart
@@ -123,6 +117,8 @@ Container(
   ),
 )
 ```
+
+If you want to see a usage in a simple way, go to `/example` folder.
 ## Additional information
 
 For contributes:
