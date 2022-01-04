@@ -10,9 +10,10 @@ class AdaptableScreenUtils {
 
   AdaptableScreenUtils._internal();
 
+  /// Size of the phone in UI Design , px
   final Size _defaultSize = const Size(375, 812);
 
-  /// Representing the main window for applications where there is only one 
+  /// Representing the main window for applications where there is only one
   /// window, such as applications designed for single-display mobile devices or
   ///  the main window to which this binding is bound.
   SingletonFlutterWindow get _window =>
