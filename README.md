@@ -11,12 +11,24 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/46109133/148128997-48ee1d39-8488-4227-83d9-6d80f7034a1b.png" alt="adaptable" width="200"/>
+</p>
 
-## Features
+<p align="center">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/Sthaynny/adaptable_screen?color=%235963C5" />
+  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/Sthaynny/adaptable_screen?color=%235761C3" />
+  <img alt="License" src="https://img.shields.io/github/license/Sthaynny/adaptable_screen?color=%235E69D7" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/Sthaynny/adaptable_screen?color=%235965E0">
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+  </a>
+</p>
+
+<p>
+  
+This package was created to reduce the need to create a way to leave the exact sizes up to the designer. For that, the Plugin scales the sizes based on an interface size and the windows that the components are being inserted.
+  
+</p>
 
 ## Getting started
 
