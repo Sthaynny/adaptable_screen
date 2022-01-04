@@ -1,0 +1,23 @@
+#!/bin/bash
+current_branch=`git branch | grep '*' | sed 's/* //'`
+green=`tput setaf 2`
+reset=`tput sgr0`
+red=`tput setaf 1`
+yellow='\033[1;33m'
+
+printf "\nChecking your commit on the branch ${green} $current_branch ${reset} (: Hold...."
+printf "\n${red}Formatting the code.........${reset}\n"
+flutter format . --set-exit-if-changed
+status=$?
+if [ $status -eq 1 ]; then
+    printf "\n${yellow}Files have been formatted, check them and try again.${reset}\n"
+    exit 1
+fi
+
+printf "\n${yellow}Applying Lint.....${reset}\n"
+flutter analyze
+
+if [ $? -ne 0 ]; then
+        printf "\n${red}Oops, something wrong is not right ):${reset}\n"
+        exit 1
+fi

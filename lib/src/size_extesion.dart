@@ -1,10 +1,10 @@
 part of adaptable_screen;
 
 extension AdaptableScreen on num {
-  /// Adding scaling in height based on window size.
+  /// Adding scaling in height based on UIDesing size.
   double get h => AdaptableScreenUtils._instance.steppedHeight(toDouble());
 
-  /// Adding scaling in width based on window size.
+  /// Adding scaling in width based on UIDesing size.
   double get w => AdaptableScreenUtils._instance.steppedWidth(toDouble());
 
   /// Adding scaling in text based on window size.

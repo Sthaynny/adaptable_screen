@@ -60,9 +60,83 @@ to `/example` folder.
 ```dart
 const like = 'sample';
 ```
+To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init()` function to set the sizes. Essa função deve ser utilizada ao iniciar a construção do seu aplicativo.
 
+```dart
+void main() {
+  AdaptableScreenUtils.init();
+  runApp(const MyApp());
+}
+```
+
+Use `.h` to scale the height based on the window size:
+
+```dart
+Container(
+  height: 10.h
+)
+```
+
+Use `.w` to scale the width based on the window size:
+
+```dart
+Container(
+  width: 10.w
+)
+```
+
+Use `.ssp` to scale text based on window size, this function can change font size as window changes size:
+
+```dart
+Text(
+  "Text Exemplo",
+  style: TextStyle(fontSize: 15.ssp),
+)
+```
+
+Use `.sp` to scale text based on window size:
+
+```dart
+Text(
+  "Text Exemplo",
+  style: TextStyle(fontSize: 15.ssp),
+)
+```
+
+
+
+Use `.r` to scale radius based on minimum window size:
+
+```dart
+Container(
+  decoration: BoxDecoration(
+    color: Colors.grey,
+    borderRadius: BorderRadius.circular(10.r),
+  ),
+  height: 50.h,
+  width: 100.w,
+  child: Center(
+    child: Text(
+      "Text Exemplo",
+      style: TextStyle(fontSize: 15.sp),
+    ),
+  ),
+)
+```
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+For contributes:
+
+- Fork this repository;
+- Create a new branch to develop your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: my new feature'`;
+- Push to your branch: `git push origin my-feature`.
+- Open a pull request for your code to be evaluated.
+
+To help maintain the chosen pattern we also create a file which is called before every commit. This file will format and pinpoint (if present) errors in the codestyle of your code. To enable this you must first copy it to git's hooks folder. If you are developing on macOS, go to the root of the project and run the command below:
+
+  $ cp pre-commit .git/hooks/pre-commit
+    
+After this step, it is necessary to give permission for the file to be executed. Just follow the following command:
+
+  $ chmod +x .git/hooks/pre-commit
