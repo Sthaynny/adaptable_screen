@@ -135,8 +135,12 @@ For contributes:
 
 To help maintain the chosen pattern we also create a file which is called before every commit. This file will format and pinpoint (if present) errors in the codestyle of your code. To enable this you must first copy it to git's hooks folder. If you are developing on macOS, go to the root of the project and run the command below:
 
-  $ cp pre-commit .git/hooks/pre-commit
-    
+```
+cp pre-commit .git/hooks/pre-commit
+```
+
 After this step, it is necessary to give permission for the file to be executed. Just follow the following command:
 
-  $ chmod +x .git/hooks/pre-commit
+```
+chmod +x .git/hooks/pre-commit
+```
