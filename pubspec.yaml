@@ -1,7 +1,9 @@
 name: adaptable_screen
-description: A new Flutter package project.
+description: This package was created to reduce the need to create a way to leave the exact sizes up to the designer. For that, the Plugin scales the sizes based on an interface size and the windows that the components are being inserted.
 version: 0.0.1
-homepage:
+repository: https://github.com/Sthaynny/adaptable_screen
+issue_tracker: https://github.com/Sthaynny/adaptable_screen/issues
+homepage: https://github.com/Sthaynny/adaptable_screen
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
