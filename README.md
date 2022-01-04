@@ -27,7 +27,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
   dependencies:
-       screen_utils: ^0.0.1
+       adaptable_screen: ^0.0.1
 ```
 
 
