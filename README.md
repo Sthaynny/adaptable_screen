@@ -20,8 +20,25 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Depend on it
+
+Add this to your package's pubspec.yaml file:
+
+
+```
+  dependencies:
+       screen_utils: ^0.0.1
+```
+
+
+Install it
+You can install packages from the command line:
+
+with Flutter:
+
+```
+  $ flutter pub get
+```
 
 ## Usage
 
