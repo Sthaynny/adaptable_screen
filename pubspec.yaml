@@ -1,6 +1,6 @@
 name: adaptable_screen
 description: The Plugin scales the sizes based on an interface size and the windows that the components are being inserted.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Sthaynny/adaptable_screen
 issue_tracker: https://github.com/Sthaynny/adaptable_screen/issues
 homepage: https://github.com/Sthaynny/adaptable_screen

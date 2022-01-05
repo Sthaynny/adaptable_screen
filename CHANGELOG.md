@@ -5,3 +5,7 @@ In this first version was created:
 - Resize the embroidery with .r;
 - Creation of function to initialize the base width and height to be resized;
 - Adapting for Null Safety
+
+## 0.0.2
+
+Update description.
