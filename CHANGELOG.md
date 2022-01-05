@@ -9,3 +9,7 @@ In this first version was created:
 ## 0.0.2
 
 Update description.
+
+## 0.0.3
+
+Function update to scale the radius of the .r function

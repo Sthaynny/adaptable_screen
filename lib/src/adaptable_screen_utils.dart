@@ -77,7 +77,7 @@ class AdaptableScreenUtils {
   }
 
   /// Scales radius based on minimum window sizes
-  double radius(double radius) => radius * lengthMin;
+  double radius(double radius) => radius * atan2(height, width);
 
   /// Scaled height based on window size.
   double steppedHeight(double height) {

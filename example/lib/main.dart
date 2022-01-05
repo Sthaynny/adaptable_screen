@@ -46,14 +46,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               decoration: BoxDecoration(
                 color: Colors.red,
-                borderRadius: BorderRadius.circular(10.r),
+                borderRadius: BorderRadius.circular(33.r),
               ),
-              height: 100.h,
-              width: 100.w,
+              height: 160.h,
+              width: 200.w,
               child: Center(
                 child: Text(
                   "Text Exemplo",
-                  style: TextStyle(fontSize: 15.ssp),
+                  style: TextStyle(fontSize: 20.ssp),
                 ),
               ),
             ),

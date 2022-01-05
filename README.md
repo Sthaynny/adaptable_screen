@@ -39,7 +39,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
   dependencies:
-       adaptable_screen: ^0.0.1
+       adaptable_screen: ^0.0.3
 ```
 
 
