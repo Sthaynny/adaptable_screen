@@ -26,7 +26,7 @@ and the Flutter guide for
 
 <p>
   
-This package was created to reduce the need to create a way to leave the exact sizes up to the designer. For that, the Plugin scales the sizes based on an interface size and the windows that the components are being inserted.
+The plug-in scales sizes based on the size of the UIDesign prototypes and the windows the components are being placed into.
   
 </p>
 
