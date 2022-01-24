@@ -12,4 +12,10 @@ Update description.
 
 ## 0.0.3
 
-Function update to scale the radius of the .r function
+Function update to scale the radius of the .r function 
+
+## 0.0.4
+
+- Update documentation.
+- Function call optimization to facilitate imports
+- Update package usage description

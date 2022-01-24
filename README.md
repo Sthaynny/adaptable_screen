@@ -18,7 +18,6 @@ and the Flutter guide for
 <p align="center">
   <img alt="Languages" src="https://img.shields.io/github/languages/count/Sthaynny/adaptable_screen?color=%235963C5" />
   <img alt="lastcommit" src="https://img.shields.io/github/last-commit/Sthaynny/adaptable_screen?color=%235761C3" />
-  <img alt="License" src="https://img.shields.io/github/license/Sthaynny/adaptable_screen?color=%235E69D7" />
   <img alt="Issues" src="https://img.shields.io/github/issues/Sthaynny/adaptable_screen?color=%235965E0">
 
   </a>
@@ -39,7 +38,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
   dependencies:
-       adaptable_screen: ^0.0.3
+       adaptable_screen: ^0.0.4
 ```
 
 
@@ -54,11 +53,14 @@ with Flutter:
 
 ## Usage
 
-To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init()` function to set the sizes. Essa função deve ser utilizada ao iniciar a construção do seu aplicativo.
+To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init` function to set the sizes. Essa função deve ser utilizada ao iniciar a construção do seu aplicativo.
 
 ```dart
 void main() {
-  AdaptableScreenUtils.init();
+  AdaptableScreenUtils.init(
+    heightUIDisign: 1000,
+    widthUIDisign: 956,
+  );
   runApp(const MyApp());
 }
 ```

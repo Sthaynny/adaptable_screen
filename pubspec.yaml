@@ -1,6 +1,6 @@
 name: adaptable_screen
 description: The plug-in scales sizes based on the size of the UIDesign prototypes and the windows the components are being placed into.
-version: 0.0.3
+version: 0.0.4
 repository: https://github.com/Sthaynny/adaptable_screen
 issue_tracker: https://github.com/Sthaynny/adaptable_screen/issues
 homepage: https://github.com/Sthaynny/adaptable_screen
