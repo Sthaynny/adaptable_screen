@@ -53,7 +53,7 @@ with Flutter:
 
 ## Usage
 
-To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init` function to set the sizes. Essa função deve ser utilizada ao iniciar a construção do seu aplicativo.
+To set the widths and heights based on the build size of your design, use the `AdaptableScreenUtils.init` function to set the sizes. This function should be used when starting to build your application.
 
 ```dart
 void main() {
